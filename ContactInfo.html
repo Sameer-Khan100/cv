@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+    <h1>My contact details</h1>
+    <dl>
+        <dt>Email
+            <dd>Sameer@this.com</dd>
+        </dt>
+        <dt>Phone No.
+            <dd>0315 00000000</dd>
+        </dt>
+        <dt>Postal Address
+            <dd>Postal code:4756</dd>
+            <dd>Address:Street#1,House#1,xyz colony,abc region</dd>
+        </dt>
+        <h1>Your Details Please</h1>
+        <form action="mailto:sam.khan03151@gmail.com" method="post" enctype="text/plain">
+            <label for="Name">Name:</label>
+            <input type="text" name="Name" id="Name">
+            <input type="submit"><br>
+            <table>
+                <tr>
+                    <td><label for="email">Email:</label>
+                        <input type="email" name="email" id="email"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Password:</label>
+                        <input type="password" name="pass" id="pass" minlength="6" required></td>
+                </tr>
+            </table>
+            
+        
+            <input type="submit" value="Sign-in"><br>
+            <label for="age">Are you over 18?</label>
+            <input type="checkbox" required ><br>
+            <label for="cmnd">Which language u have command in most?</label><br>
+            <input type="radio" name="cmnd" id="cmnd" value="JavaScript">
+            <label for="js">JavaScript</label><br>
+            <input type="radio" name="cmnd" id="cmnd" value="C++">
+            <label for="js">C++</label><br>
+            <input type="radio" name="cmnd" id="cmnd" value="python">
+            <label for="js">Python</label><br>
+            <label for="enj">How much are you Enjoying this Course?</label>
+            <input type="range" name="enj" id="enj"><br>
+            <label for="pic">Attach your Picture Below</label><br>
+            <input type="file" name="pic" id="pic" accept="image.png,image.jpg"><br>
+            <label for="dob">Your date of birth:</label>
+            <input type="date" name="dob" id="dob">
+
+            
+
+        </form>
+    </dl>
+</body>
+</html>
